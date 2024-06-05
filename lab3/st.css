@@ -1,22 +1,27 @@
 body{
-	background-color: black;
-	color: white;
+	background: url(forest.png)
 }
-h1,h2{
-	font-family: Arial;
-	color: red;
-	text-align: right;
+h1,h2 {
+    font-family: 'Roboto';
+    text-align: right;
+    color: rgb(223, 20, 20);
+    margin: 15%
 }
-p{
-	text-align: right;
+
+strong {
+    font-family: 'Caveat';
 }
-em{
-	color: green;
+em {
+    color: rgb(143, 218, 31);
+    font-style: italic;
+    border-radius: 5px;
+    padding: 0
 }
-.wrapper{
-	max-width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-left: 10px;
-	padding-right: 10px;
+.wrapper {
+    background: rgba(57, 202, 139, 0.514);
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
