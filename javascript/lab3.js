@@ -74,7 +74,7 @@ export function fibs(n){
  * @returns {number[]}
  */
 export function arrReverseSorted(arr){
-    return;
+    return arr.toSorted((a, b) => b-a);
 }
 
 
